@@ -1,0 +1,81 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  padding: 10px;
+  min-width: 400px;
+  background-color: rgba(95, 147, 65, 0.3);
+}
+
+/* Input */
+input:focus {
+  outline: none;
+  border: 1px solid #5f9341;
+}
+
+input {
+  display: block;
+  width: 100%;
+  border: 1px solid #5f9341;
+  padding: 10px;
+  border-radius: 5px;
+  color: #5f9341;
+  font-weight: bold;
+}
+
+/* Buttons */
+button{
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+  margin: 15px 5px 0 0;
+  font-weight: bold;
+  transition: background-color 0.5s ;
+  border-radius: 5px;
+}
+#input-btn , #tab-btn {
+  background-color: #5f9341;
+  color: white;
+  border: 1px solid #5f9341;
+}
+#input-btn:hover , #tab-btn:hover {
+  background-color: white;
+  color: #4a7b32;
+  border: 1px solid #4a7b32;
+}
+#delete-btn {
+  background-color: white;
+  color: #5f9341;
+  border: 1px solid #5f9341;
+}
+#delete-btn:hover {
+  background-color: #5f9341;
+  color: white;
+  border: 1px solid #5f9341;
+}
+
+/* Lists */
+ul {
+  padding: 0px;
+  margin-top: 10px;
+
+}
+ul .item {
+  list-style: none;
+  color: #5f9341;
+  /* padding-bottom: 5px; */
+  margin-top: 5px;
+}
+
+ul .item .lead-link {
+  text-decoration: underline;
+  color: #5f9341;
+}
+ul .item .lead-link:hover {
+  color: #4a7b32;
+}
