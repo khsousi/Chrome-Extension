@@ -38,21 +38,25 @@ button{
   transition: background-color 0.5s ;
   border-radius: 5px;
 }
+
 #input-btn , #tab-btn {
   background-color: #5f9341;
   color: white;
   border: 1px solid #5f9341;
 }
+
 #input-btn:hover , #tab-btn:hover {
   background-color: white;
   color: #4a7b32;
   border: 1px solid #4a7b32;
 }
+
 #delete-btn {
   background-color: white;
   color: #5f9341;
   border: 1px solid #5f9341;
 }
+
 #delete-btn:hover {
   background-color: #5f9341;
   color: white;
