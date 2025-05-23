@@ -7,6 +7,7 @@ const ulEl = document.getElementById("ul-el");
 let myLeads = [];
 const leadsFromLocalStorage = JSON.parse(localStorage.getItem("myLeads"))
 
+
 // Deal With LocalStorage 
   if(leadsFromLocalStorage){
       myLeads = leadsFromLocalStorage ;
@@ -26,12 +27,14 @@ inputBtn.addEventListener("click", function() {
   render(myLeads);
 });
 
+
 // Delete Button
 deleteBtn.addEventListener("dblclick", function(){
   localStorage.clear();
   myLeads.length = 0;
   ulEl.innerHTML = "";
 });
+
 
 // Tab Button
 tabBtn.addEventListener("click" , function (){
@@ -53,4 +56,5 @@ function render(leads){
     ulEl.appendChild(li);
   })
 };
+
 
