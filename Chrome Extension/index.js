@@ -14,7 +14,6 @@ const leadsFromLocalStorage = JSON.parse(localStorage.getItem("myLeads"))
       render(myLeads);
   }
 
-
 // Event Listeners
 
 // Input Button
@@ -35,7 +34,6 @@ deleteBtn.addEventListener("dblclick", function(){
   ulEl.innerHTML = "";
 });
 
-
 // Tab Button
 tabBtn.addEventListener("click" , function (){
   chrome.tabs.query({active: true , currentWindow: true}, function(tabs){
@@ -44,7 +42,6 @@ tabBtn.addEventListener("click" , function (){
     render(myLeads)
   })
 })
-
 
 // functions
 function render(leads){
@@ -56,5 +53,3 @@ function render(leads){
     ulEl.appendChild(li);
   })
 };
-
-
