@@ -42,6 +42,7 @@ tabBtn.addEventListener("click" , function (){
   })
 })
 
+
 // functions
 function render(leads){
   ulEl.innerHTML = "";
