@@ -7,7 +7,6 @@ const ulEl = document.getElementById("ul-el");
 let myLeads = [];
 const leadsFromLocalStorage = JSON.parse(localStorage.getItem("myLeads"))
 
-
 // Deal With LocalStorage 
   if(leadsFromLocalStorage){
       myLeads = leadsFromLocalStorage ;
