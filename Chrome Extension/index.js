@@ -12,8 +12,6 @@ const leadsFromLocalStorage = JSON.parse(localStorage.getItem("myLeads"))
       myLeads = leadsFromLocalStorage ;
       render(myLeads);
   }
-
-
 // Event Listeners
 
 // Input Button
